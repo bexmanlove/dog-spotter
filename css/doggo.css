@@ -122,6 +122,10 @@ input{
     border: 1px solid #333333;
 }
 input.button{
+    background-color: #67A69D;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
     margin-top: 10px;
 }
 
