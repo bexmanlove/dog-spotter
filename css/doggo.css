@@ -1,0 +1,158 @@
+body{
+    background-color: #67A69D;
+    color: #333333;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+div.top{
+    background-color: #D3D3D3;
+    color: #333333;
+    padding: 10px;
+    width: 75%;
+    margin: 0 auto;
+    border: 5px solid #FFEC46;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+p.instruct{
+    margin-bottom: 0px;
+}
+
+div.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+div.column{
+    align-content: center;
+    flex: 18%;
+    padding: 0 4px;
+    margin: 10px;
+}
+
+div.column img{
+    align-content: center;
+    border: 2px solid #FFFFFF;
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+img.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+div.column figcaption{
+    text-align: center;
+}
+
+@media (max-width: 800px){
+    div.column{
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+    
+@media (max-width: 600px){
+    div.column{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+h1{
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+nav{
+    font-size: 18.66px;
+    font-weight: bold;
+    text-align: center;
+}
+ul li.home{
+    display: inline;
+    padding-right: 20px;  
+}
+
+ul li.pics{
+    display: inline;
+    padding-left: 20px;  
+}
+
+a:link{
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #D3D3D3;
+    border: 2px solid #FFEC46;
+}
+
+a:visited{
+    color: #333333;
+}
+
+label[for="email"], label[for="where"], label[for="walk"], p.kind {
+    max-width: 60%;
+    padding-bottom: 5px;
+    
+} 
+
+select{
+    display: block;
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #333333;
+    width: 15%;
+}
+
+input{
+    margin-bottom: 10px;
+    border: 1px solid #333333;
+}
+input.button{
+    margin-top: 10px;
+}
+
+form{
+    padding: 20px;
+    margin: 10px;
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+}
+
+p.puppyfix{
+    text-align: center;
+    background-color: #D3D3D3;
+    color: #333333;
+    padding: 10px;
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid #FFEC46;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+img.smol_pup{
+    float: right;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
